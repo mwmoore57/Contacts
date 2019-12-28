@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		C134024523B7D98B00C94FF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C134024423B7D98B00C94FF8 /* AppDelegate.m */; };
 		C134024823B7D98B00C94FF8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C134024723B7D98B00C94FF8 /* SceneDelegate.m */; };
-		C134024B23B7D98B00C94FF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C134024A23B7D98B00C94FF8 /* ViewController.m */; };
+		C134024B23B7D98B00C94FF8 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C134024A23B7D98B00C94FF8 /* ContactsViewController.m */; };
 		C134024E23B7D98B00C94FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C134024C23B7D98B00C94FF8 /* Main.storyboard */; };
 		C134025023B7D98D00C94FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C134024F23B7D98D00C94FF8 /* Assets.xcassets */; };
 		C134025323B7D98D00C94FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C134025123B7D98D00C94FF8 /* LaunchScreen.storyboard */; };
 		C134025623B7D98D00C94FF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C134025523B7D98D00C94FF8 /* main.m */; };
+		C134025E23B7E6E000C94FF8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134025D23B7E6E000C94FF8 /* Contact.swift */; };
+		C134026023B7EB0100C94FF8 /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134025F23B7EB0100C94FF8 /* NewContactViewController.swift */; };
+		C134026323B7FFFF00C94FF8 /* ImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C134026223B7FFFF00C94FF8 /* ImageFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,18 @@
 		C134024423B7D98B00C94FF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C134024623B7D98B00C94FF8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C134024723B7D98B00C94FF8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C134024923B7D98B00C94FF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C134024A23B7D98B00C94FF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C134024923B7D98B00C94FF8 /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		C134024A23B7D98B00C94FF8 /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 		C134024D23B7D98B00C94FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C134024F23B7D98D00C94FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C134025223B7D98D00C94FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C134025423B7D98D00C94FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C134025523B7D98D00C94FF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C134025C23B7E6E000C94FF8 /* Contacts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts-Bridging-Header.h"; sourceTree = "<group>"; };
+		C134025D23B7E6E000C94FF8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C134025F23B7EB0100C94FF8 /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		C134026123B7FFFF00C94FF8 /* ImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFactory.h; sourceTree = "<group>"; };
+		C134026223B7FFFF00C94FF8 /* ImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			children = (
 				C134024223B7D98B00C94FF8 /* Contacts */,
 				C134024123B7D98B00C94FF8 /* Products */,
+				C134025C23B7E6E000C94FF8 /* Contacts-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +70,17 @@
 		C134024223B7D98B00C94FF8 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				C134025D23B7E6E000C94FF8 /* Contact.swift */,
 				C134024323B7D98B00C94FF8 /* AppDelegate.h */,
 				C134024423B7D98B00C94FF8 /* AppDelegate.m */,
 				C134024623B7D98B00C94FF8 /* SceneDelegate.h */,
 				C134024723B7D98B00C94FF8 /* SceneDelegate.m */,
-				C134024923B7D98B00C94FF8 /* ViewController.h */,
-				C134024A23B7D98B00C94FF8 /* ViewController.m */,
+				C134024923B7D98B00C94FF8 /* ContactsViewController.h */,
+				C134024A23B7D98B00C94FF8 /* ContactsViewController.m */,
+				C134025F23B7EB0100C94FF8 /* NewContactViewController.swift */,
 				C134024C23B7D98B00C94FF8 /* Main.storyboard */,
+				C134026123B7FFFF00C94FF8 /* ImageFactory.h */,
+				C134026223B7FFFF00C94FF8 /* ImageFactory.m */,
 				C134024F23B7D98D00C94FF8 /* Assets.xcassets */,
 				C134025123B7D98D00C94FF8 /* LaunchScreen.storyboard */,
 				C134025423B7D98D00C94FF8 /* Info.plist */,
@@ -107,6 +120,7 @@
 				TargetAttributes = {
 					C134023F23B7D98B00C94FF8 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -146,9 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C134024B23B7D98B00C94FF8 /* ViewController.m in Sources */,
+				C134026323B7FFFF00C94FF8 /* ImageFactory.m in Sources */,
+				C134024B23B7D98B00C94FF8 /* ContactsViewController.m in Sources */,
 				C134024523B7D98B00C94FF8 /* AppDelegate.m in Sources */,
+				C134025E23B7E6E000C94FF8 /* Contact.swift in Sources */,
 				C134025623B7D98D00C94FF8 /* main.m in Sources */,
+				C134026023B7EB0100C94FF8 /* NewContactViewController.swift in Sources */,
 				C134024823B7D98B00C94FF8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,6 +315,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,6 +335,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
